@@ -5,12 +5,15 @@ html, body{
     width: 100%;
 }
 
-.capa{
+.capa, .info {
     min-height: 100%;
     width: 100%;
+    padding-top: 40px;
+}
+
+.capa{
     background-image: url("../img/bg.jpg");
     background-size: cover;
-    padding-top: 40px;
 }
 
 i{
@@ -36,7 +39,7 @@ i{
     padding-top: 5px;
 }
 
-.div-bio p span{
+p span{
     font-weight: bold;
     color: darkslategrey;
 }
