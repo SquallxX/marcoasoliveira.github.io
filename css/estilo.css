@@ -10,10 +10,11 @@ html, body{
     width: 100%;
     background-image: url("../img/bg.jpg");
     background-size: cover;
+    padding-top: 40px;
 }
 
 i{
-    color: aliceblue;
+    color: black;
     font-size: 32px !important;
 }
 
@@ -21,4 +22,21 @@ i{
     padding-top: 5px !important;
     padding-left: 0px;
     padding-right: 0px;
+}
+
+.img-perfil{
+    height: 25%;
+    border-radius: 100px;
+}
+
+.div-bio p{
+    font-size: 18px;
+    line-height: 150%;
+    margin: 0;
+    padding-top: 5px;
+}
+
+.div-bio p span{
+    font-weight: bold;
+    color: darkslategrey;
 }
