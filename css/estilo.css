@@ -21,6 +21,10 @@ i{
     font-size: 32px !important;
 }
 
+h2{
+    padding-bottom: 20px;
+}
+
 .btn-nav-custom{
     padding-top: 5px !important;
     padding-left: 0px;
