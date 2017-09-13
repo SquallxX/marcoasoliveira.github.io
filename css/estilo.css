@@ -1,28 +1,16 @@
+@import url('https://fonts.googleapis.com/css?family=Comfortaa:400,700');
+
 html, body{
     margin: 0;
     padding: 0;
     height: 100%;
     width: 100%;
+    font-family: 'Comfortaa', cursive;
 }
 
-.capa, .info {
-    min-height: 100%;
-    width: 100%;
-    padding-top: 40px;
-}
-
-.capa{
-    background-image: url("../img/bg.jpg");
-    background-size: cover;
-}
-
-i{
-    color: black;
-    font-size: 32px !important;
-}
-
-h2{
-    padding-bottom: 20px;
+ul a{
+    font-size: 150%;
+    color: darkslategray;
 }
 
 .btn-nav-custom{
@@ -31,19 +19,20 @@ h2{
     padding-right: 0px;
 }
 
-.img-perfil{
-    height: 80px;
-    border-radius: 100px;
-}
 
-.div-bio p{
-    font-size: 18px;
-    line-height: 150%;
+section{
+    width: 100%;
+    height: 100%;
+    padding: 0;
     margin: 0;
-    padding-top: 5px;
 }
 
-p span{
-    font-weight: bold;
-    color: darkslategrey;
+.home{
+    background-image: url("../img/bg-home.jpeg");
+    background-position: center;
+    background-size: cover;
+}
+
+.home h1{
+    margin-top: 25%;
 }
