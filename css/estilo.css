@@ -20,11 +20,11 @@ html, body{
     background: rgba(0,0,0,0.4);
 }
 
-.nav-custom a,{
+.nav-link{
     color: gold !important;
 }
 
-.nav-custom a:hover{
+.nav-link :hover{
     color: goldenrod !important;
 }
 
@@ -55,11 +55,12 @@ section{
 
 
 @media screen and (max-width: 600px) {
+    
     .nav{
         display: inline;
     }
     
-    .nav-custom a{
+    .nav a{
         text-align: center !important;
         font-size: 200%;
     }
