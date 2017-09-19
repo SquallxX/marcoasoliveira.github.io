@@ -16,6 +16,11 @@ html, body{
     color: gold !important;
 }
 
+.btn-nav-custom:focus{
+    outline: none;
+    outline-offset: opx;
+}
+
 .nav-custom{
     background: rgba(0,0,0,0.4);
 }
@@ -41,16 +46,45 @@ section{
     background-image: url("../img/bg-home.jpeg");
     background-position: center;
     background-size: cover;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-justify-content: center;
+    justify-content: center;
 }
 
 .home h1{
-    margin-top: 25%;
     text-shadow: 0 0 100px black;
+}
+
+.info{
+    
+}
+
+.img-perfil{
+    width: 20%;
 }
 
 .contato{
     background-color: #36393b;
-    height: 200px;    
+    height: 200px;
+    color: #f4f8fc;
+}
+
+.contato h1{
+    color: gold;
+}
+
+.contato .display-4{
+    color: goldenrod;
+    text-decoration: none;
+    line-height: 150%;
+}
+
+.contato .display-4:hover{
+    color: darkgoldenrod;
+    text-decoration: none;
 }
 
 
@@ -68,5 +102,10 @@ section{
     .nav-custom{
         background: rgba(0,0,0,0.8);
     }
+    
+    .contato .display-4{
+        font-size: 240%;
+    }
+
 
 }
