@@ -90,6 +90,22 @@ section{
 
 @media screen and (max-width: 600px) {
     
+    p{
+        font-size: 80%;
+    }
+    
+    h1{
+        font-size: 200%;
+    }
+    
+    h2{
+        font-size: 160%;
+    }
+    
+    h3{
+        font-size: 140%;
+    }
+    
     .nav{
         display: inline;
     }
