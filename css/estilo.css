@@ -58,13 +58,18 @@ section{
     text-shadow: 0 0 100px black;
 }
 
-.info{
-    
+.home h3{
+    text-shadow: 0 0 90px black;
+}
+
+.info h2{
+    padding-top: 15px;
 }
 
 .img-perfil{
     width: 20%;
 }
+
 
 .contato{
     background-color: #36393b;
@@ -122,6 +127,9 @@ section{
     .contato .display-4{
         font-size: 240%;
     }
-
+    
+    .card{
+        padding-top: 10px;
+    }
 
 }
