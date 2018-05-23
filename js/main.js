@@ -24,6 +24,12 @@ function exibeRepositorio(lista){
         let divItem = document.createElement('div')
         divItem.classList.add('item-repositorio')
 
+        let divIcon = document.createElement('div')
+        let iconTag = document.createElement('img')
+        iconTag.setAttribute('src','img/giticon.png')
+        divIcon.classList.add('iconTag')
+        divIcon.appendChild(iconTag)
+
 
         let divTitulo = document.createElement('div')
         divTitulo.classList.add('item-header')
@@ -40,6 +46,7 @@ function exibeRepositorio(lista){
         descricao.appendChild(descricaoTexto)
         divDescricao.appendChild(descricao)
 
+        divItem.appendChild(divIcon)
         divItem.appendChild(divTitulo)
         divItem.appendChild(divDescricao)
 
