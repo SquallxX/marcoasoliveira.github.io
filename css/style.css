@@ -135,12 +135,12 @@ header h2{
     font-size: 2em;
     display: flex;
     flex-wrap: wrap;
-    align-content: space-around;
 }
 
 .item-repositorio{
     display: flex;
     flex: 1;
+    min-width: 30vw;
     flex-direction: column;
     background: rgba(255, 255, 255, 0.6);
     margin: .2em;
@@ -168,3 +168,16 @@ header h2{
 .iconTag img{
     height: 6vh;
 }
+
+@media (max-width: 700px){
+    
+    .listaRepositorios{
+        flex-wrap: nowrap;
+        flex-direction: column;
+    }
+
+    .item-repositorio{
+        min-width: none;
+    }
+
+} 
