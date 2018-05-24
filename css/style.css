@@ -7,14 +7,12 @@ body{
     width: 100%;
     font-size: 10px;
     font-family: 'Bitter', serif;
-}
-
-#home{
     background-image: url('../img/bg.jpg');
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
 }
+
 
 #home, #works{
     min-height: 100vh;
@@ -127,7 +125,14 @@ body{
 
 @media (max-width: 700px){
 
+    body{
+        background-image: none;
+    }
+
     #home{
+        background-image: url('../img/bg.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
         background-attachment: scroll;
     }
 
