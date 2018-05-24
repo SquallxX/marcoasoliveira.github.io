@@ -119,3 +119,13 @@ html, body{
 #card-works a{
     margin: 0 1.5em; 
 }
+
+@media (max-width: 700px){
+    
+    html, body{
+        background-attachment: scroll;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+} 
