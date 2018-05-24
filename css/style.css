@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Bitter|Pacifico');
 
-html, body{
+body{
     padding: 0;
     margin: 0;
     height: 100%;
@@ -102,10 +102,11 @@ html, body{
     margin: .5em 0.2em;
     box-shadow: 1px 1px 2px gray;
     padding: 0.5em 0;
+    font-size: 1em;
 }
 
 #card-works h5{
-    font-size: 2em;
+    font-size: 2rem;
     padding: 0;
     margin: 1em 0;
     font-weight: bold;
@@ -117,10 +118,11 @@ html, body{
 }
 
 #card-works a{
-    margin: 0 1.5em; 
+    margin: 0 1.5em;
+    font-size: 1.5em; 
 }
 
-@media (max-width: 700px){
+/* @media (max-width: 700px){
     
     html, body{
         background: white;
@@ -133,4 +135,4 @@ html, body{
         background-size: cover;
     }
 
-} 
+}  */
