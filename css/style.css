@@ -3,7 +3,6 @@
 html, body{
     padding: 0;
     margin: 0;
-    height: 100%;
     width: 100%;
     font-size: 10px;
     font-family: 'Bitter', serif;
@@ -14,7 +13,7 @@ html, body{
 }
 
 #home, #works{
-    min-height: 100%;
+    min-height: 100vh;
 }
 
 #works{
@@ -88,8 +87,6 @@ html, body{
     text-shadow: 1px 1px 1px black;
     text-decoration: none;
 }
-
-
 
 #card-works img{
     width: 6vw;
